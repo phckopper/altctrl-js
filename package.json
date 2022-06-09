@@ -1,0 +1,27 @@
+{
+  "name": "altctrl",
+  "version": "1.0.0",
+  "description": "Provides an interface to balenaAltctrl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phckopper/altctrl-js.git"
+  },
+  "keywords": [
+    "altctrl",
+    "websockets",
+    "balena"
+  ],
+  "author": "Pedro Kopper @ balena.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phckopper/altctrl-js/issues"
+  },
+  "homepage": "https://github.com/phckopper/altctrl-js#readme",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}
