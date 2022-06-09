@@ -12,7 +12,7 @@ class Altctrl {
     }
 
     _callback(data) {
-        this.eventEmitter.emit("data", data);
+        this.eventEmitter.emit("data", JSON.parse(data.utf8Data));
     }
 
     get inputs() {
